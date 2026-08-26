@@ -1,0 +1,38 @@
+locale: "fr-FR"
+title: "Danish Kandasamy"
+description: "Portfolio — économie appliquée, data analytics, marketing mix modeling et inférence causale."
+url: "https://DKKandasamy.github.io"
+repository: "DKKandasamy/DKKandasamy.github.io"
+
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"
+minimal_mistakes_skin: "default"
+
+author:
+  name: "Danish Kandasamy"
+  bio: "Économiste · Data analyst · MMM & inférence causale"
+  location: "Suisse"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/DKKandasamy"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/danish-kandasamy-197213222/"   
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto: kandasamy.danish@gmail.com"           
+
+markdown: kramdown
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-include-cache
+  - jekyll-sitemap
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
